@@ -82,6 +82,7 @@ Le projet inclut également un espace administrateur pour gérer les bâtiments 
 	- `db_user`: `root`
 	- `db_pass`: `root`
 	- `db_name`: `junia_toilettes`
+	- Vous pouvez utiliser n'importe quel port MySQL en modifiant `db_port`, ou en définissant les variables d'environnement `DB_HOST` / `DB_PORT` (option avancée: `DB_PORTS=3306,3307,8889`).
 5. Démarrer Apache et MySQL dans MAMP.
 6. Ouvrir l'application dans le navigateur via le dossier `public`.
 7. (Optionnel) Promouvoir un utilisateur admin:
